@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, setIsDarkMode }) => {
                     alt='logo'
                     className='w-10 sm:w-14 md:w-16 lg:w-18 xl:w-20 transition-all duration-300 group-hover:scale-105'
                 />
-                <span className="text-base sm:text-lg md:hidden lg:block lg:text-lg xl:text-xl 2xl:text-lg font-semibold ml-1">
+                <span className="text-base sm:text-lg md:hidden lg:block lg:text-lg xl:text-lg 2xl:text-lg font-semibold ml-1">
                     FI Scheduler
                 </span>
             </Link>
